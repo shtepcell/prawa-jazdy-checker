@@ -1,0 +1,17 @@
+{
+  "name": "prawa-jazdy-checker",
+  "version": "1.0.0",
+  "description": "Job for sending notifications to Telegram chanel about driver license readiness.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "playwright": "1.49"
+  },
+  "type": "module"
+}
