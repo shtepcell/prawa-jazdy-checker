@@ -13,6 +13,6 @@ Job for sending notifications to Telegram chanel about driver license readiness.
 
 ```bash
 docker buildx build --platform linux/amd64 -t prawa-jazdy-checker .
-docker tag prawa-jazdy-checker us-central1-docker.pkg.dev/{{project_id}}/gcf-artifacts/prawa-jazdy-checker
-docker push us-central1-docker.pkg.dev/{{project_id}}/gcf-artifacts/prawa-jazdy-checker
+docker tag prawa-jazdy-checker europe-central2-docker.pkg.dev/{{project_id}}/prawa-jazdy-checker/{{version}}
+docker push europe-central2-docker.pkg.dev/{{project_id}}/prawa-jazdy-checker/{{version}}
 ```
