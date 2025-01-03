@@ -36,7 +36,7 @@ const [PKK, FIRST_NAME, LAST_NAME] = PERSONAL_DATA.split(',');
   
     const element = page.getByText("Dokument do odbioru w urzędzie");
   
-    if ((await element.getAttribute("class")) === "text-inactive") {
+    if ((await element.getAttribute("class")) === "text-done") {
       console.log("Document is ready! Sending message to Telegram...");
   
       const message = `*Scan time: ${format(
